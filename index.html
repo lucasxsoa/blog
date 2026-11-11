@@ -1,0 +1,19 @@
+---
+layout: default
+title: Início
+---
+<section class="intro">
+  <h1>{{ site.description }}</h1>
+</section>
+
+<section class="feed" aria-label="Artigos">
+  {% for post in site.posts %}
+    <article class="feed-item">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time>
+      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+    </article>
+  {% else %}
+    <p>Nenhum texto publicado ainda.</p>
+  {% endfor %}
+</section>
+
