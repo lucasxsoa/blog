@@ -4,7 +4,7 @@ Blog minimalista feito com Jekyll e publicado automaticamente no GitHub Pages.
 
 ## Personalização rápida
 
-1. Em `_config.yml`, troque `Seu Nome` e a descrição.
+1. Em `_config.yml`, ajuste o nome e a descrição quando quiser.
 2. Edite `sobre.md` e `contato.md`.
 3. Remova ou substitua o texto de exemplo em `_posts/`.
 
@@ -26,3 +26,4 @@ Ao salvar e enviar a alteração para a branch `main`, o GitHub Pages republica 
 ## Ativar o GitHub Pages
 
 No repositório, abra **Settings → Pages → Build and deployment** e selecione **GitHub Actions**. Depois, acompanhe a primeira publicação na aba **Actions**.
+
