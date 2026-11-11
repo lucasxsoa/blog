@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Primeiro texto"
-resumo: "Este é o começo do seu blog: um espaço simples para publicar ideias, notas e textos em ordem cronológica."
+title: "Propósito"
+resumo: " "
 ---
 
-Este é o começo do seu blog. Substitua este conteúdo pelo seu primeiro texto — ou apague o arquivo quando não precisar mais dele.
+O sistema de consagração existencial será tanto mais eficaz quanto maior for a capacidade de materialização da benevolência aos objetos sociais
 
 
