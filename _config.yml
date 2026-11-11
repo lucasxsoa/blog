@@ -1,0 +1,14 @@
+title: "Seu Nome"
+description: "Notas, ideias e textos."
+lang: pt-BR
+timezone: America/Sao_Paulo
+url: ""
+baseurl: ""
+permalink: /:year/:month/:day/:title/
+markdown: kramdown
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
