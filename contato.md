@@ -4,5 +4,6 @@ title: Contato
 permalink: /contato/
 ---
 
-Você pode falar comigo pelo [e-mail](mailto:voce@exemplo.com).
+Você pode falar comigo pelo [GitHub](https://github.com/lucasxsoa).
+
 
