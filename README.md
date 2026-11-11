@@ -16,10 +16,13 @@ Crie um arquivo em `_posts` com o nome `AAAA-MM-DD-titulo-curto.md`:
 ---
 layout: post
 title: "Título do texto"
+resumo: "Um resumo curto que aparecerá na página inicial."
 ---
 
 Seu texto começa aqui.
 ```
+
+O campo `resumo` aparece abaixo do título e é limitado a dez linhas. Se ele for omitido, o primeiro parágrafo do texto será usado automaticamente.
 
 Ao salvar e enviar a alteração para a branch `main`, o GitHub Pages republica o blog automaticamente.
 
