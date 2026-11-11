@@ -6,7 +6,11 @@ title: Início
   {% for post in site.posts %}
     <article class="feed-item">
       <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%d.%m.%Y' }}</time>
-      <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <div class="feed-content">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        {% assign resumo = post.resumo | default: post.excerpt %}
+        <p class="summary">{{ resumo | strip_html | strip_newlines }}</p>
+      </div>
     </article>
   {% else %}
     <p>Nenhum texto publicado ainda.</p>
