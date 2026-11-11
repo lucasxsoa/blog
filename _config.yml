@@ -1,4 +1,4 @@
-title: "Seu Nome"
+title: "Lucas"
 description: "Notas, ideias e textos."
 lang: pt-BR
 timezone: America/Sao_Paulo
@@ -11,4 +11,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
 
