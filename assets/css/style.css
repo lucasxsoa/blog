@@ -13,8 +13,8 @@ body {
   margin: 0;
   color: var(--ink);
   background: var(--paper);
-  font-family: Georgia, "Times New Roman", serif;
-  line-height: 1.65;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -22,7 +22,7 @@ a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .18em
 a:hover { color: var(--muted); }
 
 .site {
-  width: min(100% - 2.5rem, 720px);
+  width: min(100% - 2.5rem, 680px);
   margin: 0 auto;
 }
 
@@ -31,29 +31,21 @@ a:hover { color: var(--muted); }
   align-items: baseline;
   justify-content: space-between;
   gap: 2rem;
-  padding: 3rem 0 4.5rem;
+  padding: 3rem 0 5rem;
 }
 
 .brand {
-  font-size: 1.35rem;
-  font-weight: 700;
+  font-size: 1.05rem;
+  font-weight: 600;
   text-decoration: none;
 }
 
-nav { display: flex; gap: 1.25rem; font-family: Arial, sans-serif; font-size: .78rem; }
+nav { display: flex; gap: 1.25rem; font-size: .78rem; }
 nav a { text-decoration: none; }
-
-.intro h1 {
-  max-width: 30rem;
-  margin: 0 0 4rem;
-  font-size: 1.45rem;
-  font-weight: 400;
-  line-height: 1.4;
-}
 
 .feed-item {
   display: grid;
-  grid-template-columns: 6.5rem 1fr;
+  grid-template-columns: 6rem 1fr;
   gap: 1.25rem;
   padding: 1.1rem 0;
   border-top: 1px solid var(--line);
@@ -61,12 +53,11 @@ nav a { text-decoration: none; }
 
 .feed-item time, .post-header time {
   color: var(--muted);
-  font-family: Arial, sans-serif;
   font-size: .7rem;
   letter-spacing: .04em;
 }
 
-.feed-item h2 { margin: 0; font-size: 1.05rem; font-weight: 400; line-height: 1.45; }
+.feed-item h2 { margin: 0; font-size: 1rem; font-weight: 400; line-height: 1.45; }
 .feed-item a { text-decoration: none; }
 
 .prose { max-width: 650px; }
@@ -76,19 +67,11 @@ nav a { text-decoration: none; }
 .prose img { max-width: 100%; height: auto; }
 .post-header { margin-bottom: 3rem; }
 
-footer {
-  margin-top: 6rem;
-  padding: 2rem 0 3rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-family: Arial, sans-serif;
-  font-size: .7rem;
-}
-
 @media (max-width: 560px) {
   html { font-size: 17px; }
   .header { display: block; padding: 2rem 0 3.5rem; }
   nav { margin-top: 1rem; gap: 1rem; }
   .feed-item { grid-template-columns: 1fr; gap: .25rem; }
 }
+
 
